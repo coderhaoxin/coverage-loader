@@ -1,0 +1,31 @@
+{
+  "name": "coverage-loader",
+  "private": true,
+  "version": "0.0.1",
+  "description": "coverage loader for webpack",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel lib --out-dir build",
+    "prepublish": "npm run build"
+  },
+  "repository": "coderhaoxin/coverage-loader",
+  "keywords": [
+    "coverage",
+    "istanbul",
+    "webpack",
+    "loader"
+  ],
+  "files": [
+    "build/",
+    "lib/"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "dependencies": {
+    "istanbul": "^0.3.17",
+    "loader-utils": "^0.2.11"
+  },
+  "devDependencies": {
+    "babel": "5"
+  }
+}

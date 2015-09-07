@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --port 3000 --config webpack.js --hot --colors"
+  },
+  "devDependencies": {
+    "babel-core": "5",
+    "babel-loader": "5",
+    "chai": "3",
+    "coverage-loader": "file:..",
+    "mocha": "2",
+    "mocha-loader": "0",
+    "webpack": "1",
+    "webpack-dev-server": "1"
+  }
+}
